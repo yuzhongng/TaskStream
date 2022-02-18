@@ -19,7 +19,7 @@ public class Main {
         printDeadlines(tasksData);
 
         System.out.println("Total number of deadlines: " + countDeadlines(tasksData));
-
+        printDeadlinesWithStream(tasksData);
         System.out.println("Total number of deadlines (using stream) : " +
                 countDeadlinesWithStream(tasksData));
     }
